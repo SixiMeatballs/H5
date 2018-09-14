@@ -1,0 +1,60 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+body{width: 100%;height: 100%;background: url(../img/share/bg.jpg) no-repeat;background-size: 100%;overflow: scroll;display: flex;flex-direction: column;height: 37.1rem;position: relative;}
+
+.eventEnter{align-self: flex-end;margin-right: 0.15rem;}
+.eventInfo{width: 0.65rem;height: 0.9rem;font-size: 0.24rem;color: #FFFFFF;background: #e84337;border-radius: 0 0 0.65rem 0.65rem;text-align: center;line-height: 0.35rem;font-family: "PingFang SC";}
+
+.eventTitle{padding: 0 0.7rem;margin-top: 0.25rem;}
+.eventTitle img{width: 100%;}
+
+.lotteryCode{display: flex;flex-direction: column;margin-top: 1.9rem;padding: 0 0.5rem;}
+.lotteryCode .codeTitle{display: flex;justify-content: space-between;color: #FFFFFF;font-size: 0.24rem;padding: 0.2rem;}
+.lotteryCode .codeTitle .codeNum{color: #fcf126;margin: 0 0.05rem;}
+.lotteryCode .codeContent{display: flex;flex-wrap: wrap;}
+.lotteryCode .codeContent .code{width: 1.98rem;height: 1.37rem;background: url(../img/share/choujiangma2.png) no-repeat;background-size: 100% 100%;font-size: 0.28rem;color: #7790c9;text-align: center;line-height: 1.37rem;margin-bottom: 0.25rem;}
+.middleCode{margin: 0 0.25rem;}
+.activatedCode{background: url(../img/share/choujiangma1.png) no-repeat!important;color: #FFFA1B!important;background-size: 100% 100%!important;}
+
+.userInfo{padding: 0 0.5rem;display: flex;align-items: center;}
+.userInfo .userImg{width: 0.7rem;height: 0.7rem;display: flex;} 
+.userInfo .userImg img{width: 100%;border-radius: 50%;}
+.userInfo .userName{font-size: 0.2rem;color: #FFFFFF;margin-left: 0.28rem;}
+
+.count{margin-top: 1.1rem;display: flex;flex-direction: column;}
+.count .lotteryDate{width: 3.28rem;height: 0.43rem;background: #4572ff;border-radius: 0.2rem;font-size: 0.24rem;color: #FFFFFF;font-weight: bold;text-align: center;line-height: 0.43rem;align-self: center;margin-bottom: 0.4rem;}
+.count .headline{text-align: center;font-size: 0.28rem;color: #FFFFFF;letter-spacing: 0.02rem;}
+.count .countdownTime{font-size: 0.45rem;color: #EEEEEE;padding: 0.4rem 1.3rem;display: flex;}
+.count .countdown{display: flex;}
+.count .countdown .numBg{width: 0.85rem;height: 0.9rem;background: url(../img/share/countBg.png) no-repeat;background-size: 100% 100%;text-align: center;line-height: 0.9rem;}
+.count .countdown .unit{font-size: 0.24rem;align-self: flex-end;margin: 0 0.05rem;}
+/*div[datatype='countDown']{display: none;}*/
+div[datatype='none']{display: none;}
+div[datatype='none'] .lotteryDate{opacity: 0;}
+div[datatype='none'] .countCon{width: 4.6rem;height: 0.94rem;background: url(../img/share/bg2.png) no-repeat;background-size: 100% 100%;font-size: 0.45rem;color: #FFFFFF;align-self: center;text-align: center;line-height: 0.94rem;letter-spacing: 0.02rem;margin-bottom: 0.45rem;margin-top: 0.3rem;}
+
+
+.prizeSet{display: flex;flex-direction: column;margin-top: 0.28rem;}
+.prizeSet .setTitle{font-size: 0.35rem;color: #fdf4eb;text-align: center;}
+.prizeSet .awards{display: flex;flex-direction: column;padding: 1.2rem 1.15rem 0;}
+.prizeSet .awards li{font-size: 0.3rem;color: #ee4059;display: flex;height: 0.7rem;}
+.prizeSet .awards li .ranking{width: 2.5rem;}
+.prizeSet .awards li .prizeCon{margin-left: 0.7rem;}
+.prizeSet .awards .rules{font-size: 0.24rem;color: #EE4059;align-self: flex-end;}
+.prizeSet .friends{font-size: 0.24rem;text-align: center;color: #FFFFFF;margin-top: 0.5rem;}
+.prizeSet .awardsList{display: flex;flex-direction: column;padding: 0.4rem 1.15rem 0.4rem;}
+.prizeSet .awardsList li{display: flex;flex-direction: column;font-size: 0.24rem;color: #000000;height: 0.7rem;margin-bottom: 0.4rem;justify-content: space-between;}
+.prizeSet .prizeButton{font-size: 0.34rem;color: #FFFFFF;text-align: center;margin-top: 1.35rem;}
+
+.process{font-size: 0.3rem;color: #FFFFFF;padding: 2.1rem 0.3rem 0;}
+.process .processTitle{text-align: center;font-size: 0.34rem;}
+.process .processCon{margin-top: 2.8rem;}
+
+.disclaimer{font-size: 0.3rem;color: #FFFFFF;padding: 1.6rem 0.3rem 0;margin-bottom: 1rem;}
+.disclaimer .processTitle{text-align: center;font-size: 0.34rem;}
+.disclaimer .processCon{margin-top: 0.6rem;}
+.disclaimer .processCon p{margin-bottom: 0.4rem;}
+
+.share{width: 100%; height: 1rem; background: #dd363d;color: #FFFFFF;font-size: 0.34rem;text-align: center;line-height: 1rem;position: absolute;bottom: 0;}

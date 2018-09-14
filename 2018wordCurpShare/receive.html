@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" type="text/css" href="css/receive.css?1"/>
+		<title>领取红包</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="check">
+				<input type="text" class="phone" placeholder="输入手机号" />
+				<div class="getCode">
+					<input type="text" class="code" placeholder="输入验证码" />
+					<div class="codeButton">获取验证码</div>
+				</div>
+				<div class="getBag">点击领取</div>
+			</div>
+			<div class="logo">微猜APP</div>
+		</div>
+		<!--请输入验证码-->
+		<div class="alert" style="display: none;">
+			<div class="content">
+				<div class="title">
+					<span>请输入图片验证码</span>
+					<img src="img/receive/cancel.png"/>
+				</div>
+				<div class="putCode">
+					<input type="text" placeholder="请输入"/>
+					<div class="verification">3245</div>
+				</div>
+				<div class="true">确定</div>
+			</div>
+		</div>
+		
+		<div class="alert" style="display: none;">
+			<div class="content">
+				<div class="title">
+					<img src="img/receive/cancel.png"/>
+				</div>
+				<div class="infos">
+					<span>此手机号已领取过奖励</span>
+					<span>请用另一个手机号领取</span>
+				</div>
+				<div class="true">确定</div>
+			</div>
+		</div>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>
+		<script>
+			var viewHeight = window.innerHeight;  
+		      $(document).ready(function () {  
+		          var viewHeight = window.innerHeight;  
+		          $("body").height(viewHeight)  ;
+		          $(".container").height(viewHeight)  ;
+		      })  
+		</script>
+	</body>
+</html>

@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <meta name="full-screen" content="yes">
+	    <title>篮球榜</title>
+	    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	    <link rel="stylesheet" href="css/global.css?001">
+	    <link rel="stylesheet" href="css/basketball_list.css">
+	    <script src="js/navigationSwitcher.js"></script>
+		<style>
+			body{height:100%;overflow:hidden;display:flex;flex-direction:column;}
+			.player_container ul .player_container_titles{position: absolute;width: 100%;}
+			.player_container ul li:nth-child(2){padding-top: 0.9rem;box-sizing: border-box;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="page_title font_1L padding_top_sysbar bg_g">
+		        <div class="btn_back"><img src="images/back.png"/></div>
+		        <div class="title_text">CBA</div>
+		    </div>
+		</header>
+	    <nav class="navbar font_4A" id="navigation">
+			<ul class="column_2">
+			    <li section-name="player_list" class="activated">球队榜</li>
+			    <li section-name="team_list">球员榜</li>
+			</ul>
+	    </nav>
+	   <!--球员-->
+	    <section name="player_list" >
+		    <div class="player_container">
+		        <ul class="font_5B">
+		            <li class="player_container_titles item_bg_j">
+		                <div class="player">球队名称</div>
+		                <div class="shooting middle">胜</div>
+		                <div class="key_pass middle">负</div>
+		                <div class="dribbling middle">胜率</div>
+		                <div class="pass mini">胜差</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">曼城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		            <li>
+		                <div class="player">
+		                	<div>01</div>
+		                    <img src="images/player_header.png">
+		                    <div class="text_nowrap_ellipsis">克洛斯京多安满城</div>
+		                </div>
+		                <div class="shooting middle live">26</div>
+		                <div class="key_pass middle">21</div>
+		                <div class="dribbling middle live">99.99%</div>
+		                <div class="pass mini">909</div>
+		            </li>
+		        </ul>
+		    </div>
+	    </section>
+	   <!--//球员-->	
+		<!--球队榜-->
+		<section name="team_list" style="display: none;" id="playerlist">
+			<!--得分-->
+			<div class="score" type="charactor_block" value="A">
+				<div class="title bg_l" name="title">
+					<div class="font_5A live">得分</div>
+					<div class="font_5A">
+						收起
+						<div class="circle"><img src="images/back.png"/></div>
+					</div>
+				</div>
+				<div class="content bg_l">
+					<ul name="content_list">
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<div class="footer font_6C">
+							展开查看更多数据
+							<div class="circle">
+								<img src="images/back.png"/>
+							</div>
+						</div>
+					</ul>
+				</div>
+				<div class="splite_blank"></div>
+			</div>
+			<!--得分-->
+			<div class="score" type="charactor_block" value="B">
+				<div class="title bg_l" name="title">
+					<div class="font_5A live">助攻</div>
+					<div class="font_5A">
+						收起
+						<div class="circle"><img src="images/back.png"/></div>
+					</div>
+				</div>
+				<div class="content bg_l">
+					<ul name="content_list">
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<div class="footer font_6C">
+							展开查看更多数据
+							<div class="circle">
+								<img src="images/back.png"/>
+							</div>
+						</div>
+					</ul>
+				</div>
+			    <div class="splite_blank"></div>
+			</div>
+			<!--得分-->
+			<div class="score" type="charactor_block" value="C">
+				<div class="title bg_l" name="title">
+					<div class="font_5A live">篮板</div>
+					<div class="font_5A">
+						收起
+						<div class="circle"><img src="images/back.png"/></div>
+					</div>
+				</div>
+				<div class="content bg_l">
+					<ul name="content_list">
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<div class="footer font_6C">
+							展开查看更多数据
+							<div class="circle">
+								<img src="images/back.png"/>
+							</div>
+						</div>
+					</ul>
+				</div>
+			    <div class="splite_blank"></div>
+			</div>
+			<!--得分-->
+			<div class="score" type="charactor_block" value="D">
+				<div class="title bg_l" name="title">
+					<div class="font_5A live">盖帽</div>
+					<div class="font_5A">
+						收起
+						<div class="circle"><img src="images/back.png"/></div>
+					</div>
+				</div>
+				<div class="content bg_l">
+					<ul name="content_list">
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<div class="footer font_6C">
+							展开查看更多数据
+							<div class="circle">
+								<img src="images/back.png"/>
+							</div>
+						</div>
+					</ul>
+				</div>
+			    <div class="splite_blank"></div>
+			</div>
+			<!--得分-->
+			<div class="score" type="charactor_block" value="E">
+				<div class="title bg_l" name="title">
+					<div class="font_5A live">抢断</div>
+					<div class="font_5A">
+						收起
+						<div class="circle"><img src="images/back.png"/></div>
+					</div>
+				</div>
+				<div class="content bg_l">
+					<ul name="content_list">
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<li>
+							<div class="play_info font_6B">
+								<div class="ranking ">01</div>
+								<img src="images/player_header.png"/>
+								<div class="player_name">阿德托昆博</div>
+								<div class="team font_6C">
+									<span>火箭</span> |
+									<span>前锋-中卫</span>
+								</div>
+							</div>
+							<div class="fraction font_8B">31.3</div>
+						</li>
+						<div class="footer font_6C">
+							展开查看更多数据
+							<div class="circle">
+								<img src="images/back.png"/>
+							</div>
+						</div>
+					</ul>
+				</div>
+				<div class="splite_blank"></div>
+			</div>
+			
+		</section>	
+		<!--//球队榜-->		 
+	</body>
+</html>
+<script language="javascript" type="text/javascript">
+        var topVal = 0;
+        var titleHeight = 0;
+        var charactorBlock = function(charactor,height,top){
+            var cb = new Object();
+            cb.charactor = charactor;
+            cb.height = height;
+            cb.top = top;
+            return cb;
+        };
+        var initDockTop = function(){
+            topVal = document.getElementById("playerlist").offsetTop;
+            titleHeight = document.querySelectorAll("div[name=\"title\"]")[0].clientHeight;
+            loadCharactorBlockList();
+            document.getElementById("playerlist").addEventListener("scroll",function (ev) {
+                var scrollTop = ev.currentTarget.scrollTop;
+                var charactor = findCurrentCharactor(scrollTop);
+                resetTitlePos(charactor,scrollTop);
+            });
+		};
+        window.onload = function () {
+            remAdjuster.adjust();
+            window.onresize = remAdjuster.adjust();   // 检测屏幕变化
+            var navs=document.querySelectorAll('#navigation ul li');
+            var sections=document.querySelectorAll("section");
+            navigationSwitcher.init(navs,sections,[null,function(){initDockTop()}]);
+        };
+        var charactorBlockList;
+        var loadCharactorBlockList = function(){
+            charactorBlockList = new Array();
+            var currTop = 0;
+            document.querySelectorAll("div[type=\"charactor_block\"]").forEach(function(val,index){
+                charactorBlockList[index] = new charactorBlock(val.attributes["value"].nodeValue,val.offsetHeight, currTop);
+                val.children[0].style.zIndex = 2 + index;
+                currTop += val.offsetHeight;
+            });
+        };
+        var resetTitlePos = function(charactor,scrollTop){
+            var pos = -1;
+            var currIndex = -1;
+            document.querySelectorAll("div[type=\"charactor_block\"]").forEach(function(val,index){
+                val.children[0].style.top = (topVal + charactorBlockList[index].top - scrollTop) + "px";
+                if(val.attributes["value"].nodeValue == charactor){
+                    currIndex = index;
+                }
+            });
+            document.querySelectorAll("div[type=\"charactor_block\"]")[currIndex].children[0].style.top = topVal +"px";
+        }
+        var findCurrentCharactor = function(scrollTop){
+            var currCharactor = "A";
+            var found = false;
+            charactorBlockList.forEach(function(val,index){
+                if(found)
+                    return;
+                if(scrollTop < val.top)
+                    return;
+                if(scrollTop > val.top + val.height)
+                    return;
+                found = true;
+                currCharactor = val.charactor;
+                return;
+            });
+            return currCharactor;
+        }
+    </script>

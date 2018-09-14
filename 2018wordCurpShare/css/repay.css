@@ -1,0 +1,66 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+.font_3L{font-size: 0.30rem;color: #FFFFFF;}
+
+body{width: 100%;height: 100%;}
+
+.container{width: 100%;height: 100%;background: url(../img/bg.jpg) no-repeat;background-size: 100%;overflow: scroll;display: flex;flex-direction: column;/*height: 25.8rem;*/position: relative;}
+
+.eventEnter{align-self: flex-end;margin-right: 0.15rem;}
+.eventInfo{width: 0.65rem;height: 0.9rem;font-size: 0.24rem;color: #FFFFFF;background: #e84337;border-radius: 0 0 0.65rem 0.65rem;text-align: center;line-height: 0.35rem;font-family: "PingFang SC";}
+
+.eventTitle{padding: 0 0.7rem;margin-top: 0.25rem;}
+.eventTitle img{width: 100%;}
+
+.helpButton{font-size: 0.5rem;color: #000000;font-weight: bold;text-align: center;margin-top: 4.7rem;}
+.activated {color: #de3f3c;}
+.redBag{width: 3.39rem;height: 0.98rem;font-size: 0.34rem;color: #FFFFFF;border: 0.02rem solid #FFFFFF;border-radius: 0.98rem 0.98rem;align-self: center;text-align: center;line-height: 0.98rem;margin-top: 0.65rem;}
+
+.count{margin-top: 1rem;display: flex;flex-direction: column;}
+.count .headline{text-align: center;font-size: 0.28rem;color: #FFFFFF;letter-spacing: 0.02rem;}
+.count .countdownTime{font-size: 0.45rem;color: #EEEEEE;padding: 0.4rem 1.3rem;display: flex;}
+.count .countdown{display: flex;}
+.count .countdown .numBg{width: 0.85rem;height: 0.9rem;background: url(../img/share/countBg.png) no-repeat;background-size: 100% 100%;text-align: center;line-height: 0.9rem;}
+.count .countdown .unit{font-size: 0.24rem;align-self: flex-end;margin: 0 0.05rem;}
+
+
+
+.prizeSet{display: flex;flex-direction: column;margin-top: 0.28rem;}
+.prizeSet .setTitle{font-size: 0.35rem;color: #fdf4eb;text-align: center;}
+.prizeSet .awards{display: flex;flex-direction: column;padding: 1.2rem 1.15rem 0;}
+.prizeSet .awards li{font-size: 0.3rem;color: #ee4059;display: flex;height: 0.7rem;}
+.prizeSet .awards li .ranking{width: 2.5rem;}
+.prizeSet .awards li .prizeCon{margin-left: 0.7rem;}
+.prizeSet .awards .rules{font-size: 0.24rem;color: #EE4059;align-self: flex-end;}
+.prizeSet .friends{font-size: 0.24rem;text-align: center;color: #FFFFFF;margin-top: 0.5rem;}
+.prizeSet .awardsList{display: flex;flex-direction: column;padding: 0.4rem 1.15rem 0.4rem;}
+.prizeSet .awardsList li{display: flex;flex-direction: column;font-size: 0.24rem;color: #000000;height: 0.7rem;margin-bottom: 0.4rem;justify-content: space-between;}
+.prizeSet .prizeButton{font-size: 0.34rem;color: #FFFFFF;text-align: center;margin-top: 1.35rem;}
+
+
+.disclaimer{font-size: 0.3rem;color: #FFFFFF;padding: 1.3rem 0.3rem 0;margin-bottom: 1rem;}
+.disclaimer .processTitle{font-size: 0.24rem;}
+.disclaimer .processCon p{font-size: 0.24rem;}
+
+
+.button{position: fixed;bottom: 0rem;width: 100%;height: 0.92rem;background-color: rgba(0,0,0,.55);padding: 0.21rem;box-sizing: border-box;}
+.button .logo{margin-top: 0;float: left;width: auto;margin-left: 0.3rem;}
+.button .logo img{width:0.48rem;height: 0.48rem;margin-right: 0.2rem;}
+.button .open_now{display: flex;align-items: center;color: #faf212;margin-right: 0.3rem;float: right;height: 0.5rem;}
+.button .open_now img{width: 0.12rem;height: 0.24rem;margin-left: 0.24rem;}
+
+.alert{width: 100%;height: 100%;position: absolute;top: 0;background: rgba(0,0,0,0.4);z-index: 9;overflow: hidden;}
+.alert .content{position: absolute;top: 0;right: 0;left: 0;bottom: 0;margin: auto;width: 5.8rem;height: 8.9rem;}
+.alert .bg{width: 5.8rem;}
+.alert .close{width: 0.4rem;position: absolute;top: 0.55rem;right: 0;}
+.alert div{font-size: 0.24rem;color: #fff;position: absolute;width: 100%;text-align: center;}
+.alert .code{font-size: 0.36rem;color: #DE3F3C;top: 4.9rem;}
+.alert .text{top: 4.3rem;}
+.alert .info{bottom: 2.3rem;}
+.alert a{width: 2.6rem;height: 0.9rem;border-radius: 0.1rem;display: block;font-size: 0.34rem;color: #fff;text-align: center;line-height: 0.9rem;position: absolute;bottom: 0.2rem;}
+.alert .grab{background: #e93534;left: 0;}
+.alert .join{background: #fbf2bb;color: #DE3F3C;right: 0;}
+.alert .joinus{background: #e93534;color: #FFFFFF;right: 0;width: 100%;}
+.alert .infos{top: 2.5rem;display: flex;flex-direction: column;font-size: 0.36rem;font-weight: bold;font-style: oblique;}
+.alert .infos span:nth-child(2){font-size: 0.4rem;margin-top: 0.3rem;}

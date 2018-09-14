@@ -1,0 +1,313 @@
+body {overflow-x: hidden;font-family: pingfang sc; }
+p {line-height: 1.75; }
+a {color: #fed136; }
+a:hover {color: #fec503; }
+
+
+#mainNav {background-color: #303030;box-sizing: border-box;}
+#mainNav .navbar-toggler {font-size: 12px;right: 0;padding: 13px;text-transform: uppercase;color: white;border: 0;background-color: #fed136;font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+#mainNav .navbar-brand {color: #fed136; }
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover {color: #fec503; }
+#mainNav .navbar-nav .nav-item .nav-link {font-size: 24px;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+}
+#mainNav .navbar-nav .nav-item , #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136; 
+}
+#mainNav .navbar-nav li{margin: 0 10px;}
+      
+      
+
+@media (min-width: 992px) {
+#mainNav {
+	-webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+	-moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+	transition: padding-top 0.3s, padding-bottom 0.3s;
+	border: none;
+	background-color: #303030; 
+}
+#mainNav .navbar-brand {
+	font-size: 1.75em;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s; 
+}
+#mainNav .navbar-brand  img{
+	width: 265px;
+	height: 70px;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+	padding: 1.1em 1em !important; 
+}
+#mainNav.navbar-shrink {
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: #212529; 
+}
+#mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0; 
+} 
+}
+
+header{
+	margin-top: 100px;
+	height: 800px;
+}
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/banner_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+header.masthead .slogan{
+	display: flex;
+	flex-direction:column ;
+	justify-content: center;
+	align-items: center;
+	padding-top: 160px;
+	position: relative;
+}
+header.masthead .slogan .android{
+	position: absolute;
+	bottom: -200px;
+	right: 140px;
+}
+header.masthead .slogan .iphone{
+	position: absolute;
+	bottom: -305px;
+	right: 140px;
+}
+header.masthead .slogan_main{
+	font-size: 70px;
+	color: #484848;
+	margin-bottom: 35px;
+}
+header.masthead .line{
+	width: 138px;
+	height: 6px;
+	background-color: #229dff;
+	margin-bottom: 31px;
+}
+header.masthead .intro{
+	font-size: 30px;
+	color: #333;
+	margin-bottom: 100px;
+	letter-spacing: 8px;
+}
+header.masthead .download_img{
+	width: 313px;
+	height: 96px;
+}
+header.masthead .ios_img{
+	width: 313px;
+	height: 96px;	
+}
+@media (max-width: 768px) {
+	header.masthead .slogan_main{
+		font-size: 70px;
+	}
+}
+@media (min-width: 768px) {	
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px; }
+    header.masthead .intro-text .intro-lead-in {
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    header.masthead .intro-text .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } 
+    header.masthead .slogan_main{
+		font-size: 90px;
+		letter-spacing: 10px;
+	}  
+}
+
+@media (max-width: 991px) {
+	header{margin-top: 56px;}	
+}
+
+#index img{
+	width: 100%;
+}
+
+#download{
+	width: 100%;
+	position: relative;
+}
+#download img{
+	width: 100%;
+}
+#download .download_con{
+	position: absolute;
+	top: 20%;
+	right: 0%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+}
+#download .download_con .line{
+	width: 111px;
+	height: 7px;
+	background-color: #46affe;
+	margin-bottom: 45px;
+}
+#download .download_con .slogan_main{
+	font-size: 66px;
+	color: #676a6a;
+	margin-bottom: 10px;
+}
+#download .download_con .intro{
+	color: #676a6a;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+#download span{
+	-ms-flex: none;
+	flex: none;
+}
+#download a{
+	-ms-flex: none;
+	flex: none;
+}
+
+
+#details{
+	width: 100%;
+}
+#details img{width: 100%;}
+
+#ad img{width: 100%;}
+
+#about{
+	height: 755px;	
+	background-image: url("../img/about_bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	padding: 40px  115px;
+	box-sizing: border-box;
+}
+#about .content{
+	width: 100%;
+	height: 680px;
+	font-size: 36px;
+	color: #676a6a;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 10px;
+	padding: 50px;
+	line-height: 54px;
+	letter-spacing: 14px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+#about .content .first_word{
+	font-size: 53px;
+	color: #fe4136;
+}
+#about .content .second_word{
+	font-size: 53px;
+	color: #52b0f7;
+}
+#about .content .texts{
+	display: flex;
+	flex-direction: column;
+}
+#about .content .context{
+	font-size: 30px;
+}
+#about .content .bottom{
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+#about .content .button{
+	width: 219px;
+	border-radius: 13px;
+	background: #676a6a;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 64px;
+	padding-left: 15px;
+	margin-bottom: 30px;
+} 
+
+#about .content .contact{
+	display: flex;
+	font-size: 30px;
+	color: #696969;
+	letter-spacing: 0;
+	justify-content: center;
+}
+#about .content .contact span span{
+	font-size: 26px;
+}
+footer {
+	height: 213px;
+  	padding: 25px 0;
+  	text-align: center; 
+  	background-color: #303030;
+ }
+footer .row{
+	flex-direction: column;
+	align-items: center;
+}
+footer .info{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+	-ms-flex: none;
+	flex: none;
+}
+footer span {
+	font-size: 18px;
+	color: #FFFFFF;
+}
+footer .list-inline li {
+	position: relative;
+}
+footer .list-inline li a img{
+	width: 55px;
+	height: 55px;
+}
+footer .list-inline li a .weixin,.qq,.subscribe{
+	position: absolute;
+	top: -120px;
+	left: -30px;
+	display: none;
+}
+footer .list-inline li a .weixin_icon:hover+ img{
+	display: block;
+}
+footer .list-inline li a .qq_icon:hover+ img{
+	display: block;
+}
+footer .list-inline li a .subscribe_icon:hover+ img{
+	display: block;
+}
+footer .list-inline li a img:nth-child(2){
+	width: 108px;
+	height: 108px;
+}
